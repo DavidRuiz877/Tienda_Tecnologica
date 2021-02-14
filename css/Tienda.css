@@ -1,59 +1,66 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+html {
+box-sizing: border-box;
+font-family: sans-serif;
+font-size: 16px;
 }
-nav ul{
-    list-style: none;
-    padding: 0;
-    cursor: pointer;
-}
-nav li {
-    line-height: 3rem;
-    position: relative;
 
+::before,
+::after{
+    box-sizing: inherit;
 }
-.menu ul {
-    position: absolute;
-}
-nav a {
-    text-decoration: none;
-    color: #ddd;
-    display: block;
-    padding: 0 2.5em;
-    transition: .8s;
-}
-nav a:hover {
-    background: rgba(0,0,0,.5);
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 h1{
-    text-align: center;
+
+text-align: left;
+
+}
+main{
+    flex-grow: 1;
+    
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 992px;
+    
+}
+.header{
+    padding: .5rem;
+    background-color:skyblue;
+    
+    
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
 }
 .menu{
-    background: #333;
-    display: table;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 115%;
+    cursor: pointer;
+    
+    
 }
-.menu > li {
-    float: left;
-    width: 170px;
+.menu a{
+    color:blue;
+    padding: 0 1vw;
+    transition: all .3s ease-in-out;
+    text-decoration: none;
+ 
+
 
 }
-nav li li {
-    background: #222;
-    width: 220px;
-    max-height: 0;
-    overflow: hidden;
-    transition: all .8s;
-}
-nav li:hover > ul > li {
-    max-height: 500px;
-    overflow: visible;
-
-}
-.menu > li > ul {
-   top: 100%;
-
-}
-.menu ul ul {
-    left: 100%;
-    top: 0%;
+.menu a:hover{
+ background-color: steelblue;
 }
