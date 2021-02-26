@@ -66,6 +66,9 @@ img{
     float: left;
     margin-top: -3.7em;
 }
+ul{
+    list-style: none;
+}
 .conte4{
     position:absolute;
     
