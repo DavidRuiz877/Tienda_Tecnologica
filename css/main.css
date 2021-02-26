@@ -64,3 +64,15 @@ main{
 .menu a:hover{
  background-color: steelblue;
 }
+
+.tienda{
+    margin: 0 auto 0 auto;
+   margin-top: 15px;
+}
+
+p{
+    text-align: center;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}

@@ -1,0 +1,92 @@
+*{
+    background-color: rgba(226, 226, 255, 0.104);
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 167, 52, 0.097);
+
+    color: #000000;
+    text-shadow: 2px 2px 4px gray;
+
+    box-shadow: 10px 10px grey;
+    border: 1px solid gray;
+}
+
+p{
+    font-size: 25px;
+    margin: 25px 10px;
+    text-align: center;
+}
+hr{
+    width: 90%;
+}
+
+div{
+    margin: 10px;
+    text-align: center;
+    display: block;
+    border-radius: 7px;
+    padding: 10px;
+
+  
+}
+
+div .img1{
+    margin: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+div .img2{
+    height: 390px;
+    width: 45%;
+    border-radius: 10px;
+    margin: 5px;
+}
+div .img3{
+    height: 390px;
+    width: 45%;
+    border-radius: 10px;
+    margin: 5px;
+}
+@media only screen and (max-width: 767px) {
+
+    p{
+        font-size: 20px;
+    }
+    div .img1{
+        margin: 5px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    div .img2{
+        width: 80%;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    div .img3{
+        width: 80%;
+        border-radius: 10px;
+        margin: 5px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div .img1{
+        margin: 5px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    div .img2{
+        width: 100%;
+        border-radius: 10px;
+        margin: 5px;
+    }
+    div .img3{
+        width: 100%;
+        border-radius: 10px;
+        margin: 5px;
+    }
+}
